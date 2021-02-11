@@ -1,2 +1,27 @@
-# promising-verification-targets
-A list of things I'd love to verify or see verified some day
+# Promising Verification Targets
+
+This list is things that I'd like to verify, or that might be easily verifiable.
+I'd like to keep the list open-source, and for now it's all C because that's what I'm thinking about, but other contributions and suggestions are more than welcome via PR, email or Twitter!
+
+## C Programs
+
+| Project | Notes | Suggester (thanks!) |
+|---------|----------------------------|---------------------|
+| [Wasm3](https://github.com/wasm3/wasm3) | [Link](wasm3.md) | [Frank](https://twitter.com/jedisct1) |
+| [LibSodium](https://github.com/jedisct1/libsodium) | optimized x86! | [DKP](https://twitter.com/tweetdkp)
+| [Sweet-B](https://github.com/westerndigitalcorporation/sweet-b) | need to examine this code | [Brian Mastenbrook](https://twitter.com/bmastenbrook)
+| [Signal C implementation](https://github.com/signalapp/libsignal-protocol-c) |  | [Matthew Fernandez](https://twitter.com/smattrr), [Aaron Tomb](https://galois.com/team/aaron-tomb/)
+| [DTach](https://github.com/crigler/dtach) | Pretty small and self-contained, any obvious properties? | [Tikhon Jelvis](https://twitter.com/tikhonjelvis)
+| ASN.1 | So many bugs, so much code | [Martin Nyx Brain](@ciphernyx)
+| [Azure C SDK](https://github.com/Azure/azure-sdk-for-c) | Memory safety targets, api stuff is harder | Me
+| Compression/Image libraries | Probably lots to do, binary formats would be fun. Some specs are very clear | [Tristan Ravitch](https://galois.com/team/tristan-ravitch/)
+
+
+### Wall of shame
+Funny suggestions that fill me with rage or fear (nonexclusive or). Honestly all of these are probably chock-full of bugs and good problems. We'll know we've won the verification game when we can move them up to the "real list".
+
+| Project | Notes | Suggester (no thanks!)
+| ------- | ----- | ----------------------
+| Doom (memory allocater)    | Bugs might be useful for speedrunners. Seriously there's probably good targets in here, but I'm too scared | [Dominic Orchard](https://twitter.com/dorchard) 
+| GMP | Yeah, I'm going to verify a program I can't draw a smiley face in. | [Sebastian Ullrich](https://twitter.com/derKha)
+| Red/Black Tree | We're going to need a bigger boat (and a separation logic) | [Martin Nyx Brain](@ciphernyx)
