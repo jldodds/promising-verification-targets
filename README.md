@@ -3,6 +3,10 @@
 This list is things that I'd like to verify, or that might be easily verifiable.
 I'd like to keep the list open-source, and for now it's all C because that's what I'm thinking about, but other contributions and suggestions are more than welcome via PR, email or Twitter!
 
+Right now I've written this with SAW in mind, because that's where my focus is. If other languages/tools show up, it's probably worth adding a column.
+
+Finally, if you're interested in actually _doing_ some verification, please reach out. An important part of what we're workign on now is trying out our tools, and we'd gladly offer some mentoring time to any willing or aspiring ~~victims~~ proof engineers.
+
 ## C Programs
 
 | Project | Notes | Suggester (thanks!) |
@@ -15,6 +19,9 @@ I'd like to keep the list open-source, and for now it's all C because that's wha
 | ASN.1 | So many bugs, so much code | [Martin Nyx Brain](@ciphernyx)
 | [Azure C SDK](https://github.com/Azure/azure-sdk-for-c) | Memory safety targets, api stuff is harder | Me
 | Compression/Image libraries | Probably lots to do, binary formats would be fun. Some specs are very clear | [Tristan Ravitch](https://galois.com/team/tristan-ravitch/)
+| [Curl](https://github.com/curl/curl) | So much here, probably some high impact parts | [Tom DuBuisson](https://twitter.com/MDTom)
+| [libflint](https://www.flintlib.org/) | |[Tom DuBuisson](https://twitter.com/MDTom)
+| sudo (parsing) | | [Tom DuBuisson](https://twitter.com/MDTom)
 
 
 ### Wall of shame
